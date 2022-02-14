@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3075404F-FA11-46CE-883E-5918D320B3E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HeThongQLDVGiaoHangNhanh</RootNamespace>
+    <AssemblyName>HeThongQLDVGiaoHangNhanh</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons\IconApplication.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\Library\DLL Library\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="SqlQuery, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\My simulation applications\Useful class\SqlQuery\bin\Release\SqlQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="printer\CrystalReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printer\CrystalReportViewer.Designer.cs">
+      <DependentUpon>CrystalReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printer\DataSet_FastDelivery.cs">
+      <DependentUpon>DataSet_FastDelivery.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="printer\DataSet_FastDelivery.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_FastDelivery.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="personalInformation\SalaryOfPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personalInformation\SalaryOfPersonal.Designer.cs">
+      <DependentUpon>SalaryOfPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printer\GoodsDeliveryPaperReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoodsDeliveryPaperReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="printer\ShowDonHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printer\ShowDonHang.Designer.cs">
+      <DependentUpon>ShowDonHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="statistical\StatisticsOfTheNumberOfOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="statistical\StatisticsOfTheNumberOfOrders.Designer.cs">
+      <DependentUpon>StatisticsOfTheNumberOfOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="managementSystem\AccountManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="managementSystem\AccountManagement.Designer.cs">
+      <DependentUpon>AccountManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="managementSystem\CustomerManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="managementSystem\CustomerManagement.Designer.cs">
+      <DependentUpon>CustomerManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="managementSystem\ProductManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="managementSystem\ProductManagement.Designer.cs">
+      <DependentUpon>ProductManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="managementSystem\OrderManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="managementSystem\OrderManagement.Designer.cs">
+      <DependentUpon>OrderManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="managementSystem\ShipperManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="managementSystem\ShipperManagement.Designer.cs">
+      <DependentUpon>ShipperManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personalInformation\ChangeDisplayName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personalInformation\ChangeDisplayName.Designer.cs">
+      <DependentUpon>ChangeDisplayName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personalInformation\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personalInformation\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="statistical\SalaryOfEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="statistical\SalaryOfEmployees.Designer.cs">
+      <DependentUpon>SalaryOfEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchCustomersAndShippers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchCustomersAndShippers.Designer.cs">
+      <DependentUpon>SearchCustomersAndShippers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ConnectionDB.cs" />
+    <Compile Include="DAL\TaiKhoanDAL.cs" />
+    <Compile Include="statistical\OrderStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="statistical\OrderStatistics.Designer.cs">
+      <DependentUpon>OrderStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DisplayProductInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayProductInformation.Designer.cs">
+      <DependentUpon>DisplayProductInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\DonHangDAL.cs" />
+    <Compile Include="DAL\KhachHangGuiDAL.cs" />
+    <Compile Include="DAL\KhachHangNhanDAL.cs" />
+    <Compile Include="DAL\NV_GiaoHangDAL.cs" />
+    <Compile Include="DAL\ThongTinSanPhamDHDAL.cs" />
+    <Compile Include="statistical\TotalRevenueStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="statistical\TotalRevenueStatistics.Designer.cs">
+      <DependentUpon>TotalRevenueStatistics.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="printer\CrystalReportViewer.resx">
+      <DependentUpon>CrystalReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personalInformation\SalaryOfPersonal.resx">
+      <DependentUpon>SalaryOfPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printer\GoodsDeliveryPaperReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GoodsDeliveryPaperReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printer\ShowDonHang.resx">
+      <DependentUpon>ShowDonHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="statistical\StatisticsOfTheNumberOfOrders.resx">
+      <DependentUpon>StatisticsOfTheNumberOfOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managementSystem\AccountManagement.resx">
+      <DependentUpon>AccountManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managementSystem\CustomerManagement.resx">
+      <DependentUpon>CustomerManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managementSystem\OrderManagement.resx">
+      <DependentUpon>OrderManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managementSystem\ProductManagement.resx">
+      <DependentUpon>ProductManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personalInformation\ChangeDisplayName.resx">
+      <DependentUpon>ChangeDisplayName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personalInformation\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="statistical\SalaryOfEmployees.resx">
+      <DependentUpon>SalaryOfEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchCustomersAndShippers.resx">
+      <DependentUpon>SearchCustomersAndShippers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="statistical\OrderStatistics.resx">
+      <DependentUpon>OrderStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayProductInformation.resx">
+      <DependentUpon>DisplayProductInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managementSystem\ShipperManagement.resx">
+      <DependentUpon>ShipperManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="statistical\TotalRevenueStatistics.resx">
+      <DependentUpon>TotalRevenueStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="printer\DataSet_FastDelivery.xsc">
+      <DependentUpon>DataSet_FastDelivery.xsd</DependentUpon>
+    </None>
+    <None Include="printer\DataSet_FastDelivery.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_FastDelivery.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="printer\DataSet_FastDelivery.xss">
+      <DependentUpon>DataSet_FastDelivery.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\New Add.ico" />
+    <None Include="icons\Print.ico" />
+    <None Include="icons\Search Statistics.ico" />
+    <None Include="icons\Save.ico" />
+    <None Include="pictures\Avatar User.png" />
+    <None Include="icons\List.ico" />
+    <None Include="icons\Recycle Bin.ico" />
+    <None Include="icons\Refresh.ico" />
+    <None Include="icons\Log Out.ico" />
+    <None Include="icons\Search Icon.ico" />
+    <None Include="icons\Personal Information.ico" />
+    <None Include="icons\Statistics.ico" />
+    <None Include="icons\System Control.ico" />
+    <None Include="icons\eye.ico" />
+    <None Include="icons\eye close.ico" />
+    <None Include="icons\Home.ico" />
+    <None Include="icons\Add.ico" />
+    <None Include="icons\Edit.ico" />
+    <Content Include="icons\IconApplication.ico" />
+    <None Include="icons\key.ico" />
+    <None Include="icons\user.ico" />
+    <None Include="pictures\GiaoHangNhanh_Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icons\search.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

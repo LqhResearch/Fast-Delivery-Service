@@ -1,0 +1,120 @@
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\bin\Debug\HeThongQLDVGiaoHangNhanh.exe.config
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\bin\Debug\HeThongQLDVGiaoHangNhanh.exe
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\bin\Debug\HeThongQLDVGiaoHangNhanh.pdb
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\bin\Debug\Guna.UI2.dll
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.csprojAssemblyReference.cache
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.Dashboard.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.Properties.Resources.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.GenerateResource.cache
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.CoreCompileInputs.cache
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.CopyComplete
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.exe
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.pdb
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.sqlQuery.DisplayProductInformation.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.OrderManagement.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.ShipperManagement.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.CustomerManagement.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.AccountManagement.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.OrderStatistics.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.TotalRevenueStatistics.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.SearchCustomersAndShippers.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.Login.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.managementSystem.ProductManagement.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.ChangeDisplayName.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.ChangePassword.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.SalaryOfEmployees.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\bin\Debug\SqlQuery.dll
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\bin\Debug\SqlQuery.pdb
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.StatisticsOfTheNumberOfOrders.resources
+A:\Delivery Service Management System\HeThongQLDVGiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.SalaryOfPersonal.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\HeThongQLDVGiaoHangNhanh.exe.config
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\HeThongQLDVGiaoHangNhanh.exe
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\HeThongQLDVGiaoHangNhanh.pdb
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\SqlQuery.pdb
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.csprojAssemblyReference.cache
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.SalaryOfPersonal.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.StatisticsOfTheNumberOfOrders.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.Login.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.AccountManagement.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.CustomerManagement.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.Dashboard.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.OrderManagement.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.managementSystem.ProductManagement.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.ChangeDisplayName.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.ChangePassword.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.SalaryOfEmployees.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.SearchCustomersAndShippers.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.OrderStatistics.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.Properties.Resources.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.sqlQuery.DisplayProductInformation.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.ShipperManagement.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.TotalRevenueStatistics.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.GenerateResource.cache
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.CoreCompileInputs.cache
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.CopyComplete
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.exe
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.pdb
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.ShowDonHang.resources
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\AxShockwaveFlashObjects.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportSource.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.Shared.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.Windows.Forms.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\ShockwaveFlashObjects.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\stdole.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+A:\Fast Delivery Management System\HeThong_QuanLy_DichVu_GiaoHangNhanh\obj\Debug\HeThongQLDVGiaoHangNhanh.printer.CrystalReportViewer.resources
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\HeThongQLDVGiaoHangNhanh.exe.config
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\HeThongQLDVGiaoHangNhanh.exe
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\HeThongQLDVGiaoHangNhanh.pdb
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\ShockwaveFlashObjects.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\stdole.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+A:\Research\FastDeliveryServiceManagementSystem\bin\Debug\SqlQuery.pdb
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.AssemblyReference.cache
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.printer.CrystalReportViewer.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.SalaryOfPersonal.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.ShowDonHang.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.StatisticsOfTheNumberOfOrders.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.Login.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.AccountManagement.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.CustomerManagement.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.Dashboard.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.OrderManagement.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.managementSystem.ProductManagement.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.ChangeDisplayName.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.ChangePassword.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.SalaryOfEmployees.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.SearchCustomersAndShippers.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.OrderStatistics.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.Properties.Resources.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.sqlQuery.DisplayProductInformation.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.ShipperManagement.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.TotalRevenueStatistics.resources
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.GenerateResource.cache
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.CoreCompileInputs.cache
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.CopyComplete
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.exe
+A:\Research\FastDeliveryServiceManagementSystem\obj\Debug\HeThongQLDVGiaoHangNhanh.pdb
