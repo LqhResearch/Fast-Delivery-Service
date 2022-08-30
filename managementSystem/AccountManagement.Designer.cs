@@ -36,6 +36,7 @@ namespace HeThongQLDVGiaoHangNhanh
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccountManagement));
             this.dgvAccount = new Guna.UI2.WinForms.Guna2DataGridView();
             this.pnlTitle = new System.Windows.Forms.Panel();
+            this.lblTitle = new System.Windows.Forms.Label();
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblUsername = new System.Windows.Forms.Label();
             this.txtDisplayName = new Guna.UI2.WinForms.Guna2TextBox();
@@ -50,7 +51,6 @@ namespace HeThongQLDVGiaoHangNhanh
             this.btnNewAdd = new Guna.UI2.WinForms.Guna2Button();
             this.btnCapNhat = new Guna.UI2.WinForms.Guna2Button();
             this.btnThem = new Guna.UI2.WinForms.Guna2Button();
-            this.lblTitle = new System.Windows.Forms.Label();
             this.lblStatus = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccount)).BeginInit();
             this.pnlTitle.SuspendLayout();
@@ -129,6 +129,17 @@ namespace HeThongQLDVGiaoHangNhanh
             this.pnlTitle.Size = new System.Drawing.Size(800, 46);
             this.pnlTitle.TabIndex = 0;
             // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTitle.Location = new System.Drawing.Point(266, 11);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(269, 25);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "Quản lý tài khoản đăng nhập";
+            // 
             // txtUsername
             // 
             this.txtUsername.BorderRadius = 3;
@@ -160,7 +171,7 @@ namespace HeThongQLDVGiaoHangNhanh
             this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.Location = new System.Drawing.Point(480, 70);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(105, 16);
+            this.lblUsername.Size = new System.Drawing.Size(104, 16);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "Tên đăng nhập: ";
             // 
@@ -195,7 +206,7 @@ namespace HeThongQLDVGiaoHangNhanh
             this.lblDisplayName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDisplayName.Location = new System.Drawing.Point(480, 112);
             this.lblDisplayName.Name = "lblDisplayName";
-            this.lblDisplayName.Size = new System.Drawing.Size(82, 16);
+            this.lblDisplayName.Size = new System.Drawing.Size(81, 16);
             this.lblDisplayName.TabIndex = 2;
             this.lblDisplayName.Text = "Tên hiển thị: ";
             // 
@@ -230,7 +241,7 @@ namespace HeThongQLDVGiaoHangNhanh
             this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.Location = new System.Drawing.Point(480, 154);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(68, 16);
+            this.lblPassword.Size = new System.Drawing.Size(67, 16);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Mật khẩu: ";
             // 
@@ -240,7 +251,7 @@ namespace HeThongQLDVGiaoHangNhanh
             this.lblAccess.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAccess.Location = new System.Drawing.Point(480, 196);
             this.lblAccess.Name = "lblAccess";
-            this.lblAccess.Size = new System.Drawing.Size(103, 16);
+            this.lblAccess.Size = new System.Drawing.Size(102, 16);
             this.lblAccess.TabIndex = 4;
             this.lblAccess.Text = "Quyền truy cập: ";
             // 
@@ -365,17 +376,6 @@ namespace HeThongQLDVGiaoHangNhanh
             this.btnThem.TabIndex = 5;
             this.btnThem.Text = "Thêm";
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(266, 11);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(269, 25);
-            this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "Quản lý tài khoản đăng nhập";
             // 
             // lblStatus
             // 
