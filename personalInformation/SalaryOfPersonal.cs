@@ -1,5 +1,4 @@
 ﻿using Guna.UI2.WinForms;
-using HeThongQLDVGiaoHangNhanh.sqlQuery;
 using System;
 using System.Data;
 using System.Drawing;

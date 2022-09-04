@@ -1,5 +1,5 @@
 ﻿
-namespace HeThongQLDVGiaoHangNhanh.printer
+namespace HeThongQLDVGiaoHangNhanh
 {
     partial class CrystalReportViewer
     {

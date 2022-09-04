@@ -125,7 +125,6 @@ C:\QH\Fast-Delivery-Service\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
 C:\QH\Fast-Delivery-Service\bin\Debug\CrystalDecisions.ReportSource.dll
 C:\QH\Fast-Delivery-Service\bin\Debug\CrystalDecisions.Shared.dll
 C:\QH\Fast-Delivery-Service\bin\Debug\CrystalDecisions.Windows.Forms.dll
-C:\QH\Fast-Delivery-Service\bin\Debug\ShockwaveFlashObjects.dll
 C:\QH\Fast-Delivery-Service\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
 C:\QH\Fast-Delivery-Service\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
 C:\QH\Fast-Delivery-Service\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
@@ -139,9 +138,6 @@ C:\QH\Fast-Delivery-Service\bin\Debug\CrystalDecisions.ReportAppServer.CommonObj
 C:\QH\Fast-Delivery-Service\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\QH\Fast-Delivery-Service\bin\Debug\stdole.dll
 C:\QH\Fast-Delivery-Service\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
-C:\QH\Fast-Delivery-Service\bin\Debug\SqlQuery.pdb
-C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.AssemblyReference.cache
-C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.printer.CrystalReportViewer.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.SalaryOfPersonal.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.ShowDonHang.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.StatisticsOfTheNumberOfOrders.resources
@@ -150,14 +146,9 @@ C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.AccountManagement
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.CustomerManagement.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.Dashboard.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.OrderManagement.resources
-C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.managementSystem.ProductManagement.resources
-C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.ChangeDisplayName.resources
-C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.ChangePassword.resources
-C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.personalInformation.SalaryOfEmployees.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.SearchCustomersAndShippers.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.OrderStatistics.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.Properties.Resources.resources
-C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.sqlQuery.DisplayProductInformation.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.ShipperManagement.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.TotalRevenueStatistics.resources
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.GenerateResource.cache
@@ -165,4 +156,10 @@ C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.CoreCompil
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.CopyComplete
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.exe
 C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.pdb
-C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.SuggestedBindingRedirects.cache
+C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.CrystalReportViewer.resources
+C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.ProductManagement.resources
+C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.ChangeDisplayName.resources
+C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.ChangePassword.resources
+C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.SalaryOfEmployees.resources
+C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.DisplayProductInformation.resources
+C:\QH\Fast-Delivery-Service\obj\Debug\HeThongQLDVGiaoHangNhanh.csproj.AssemblyReference.cache

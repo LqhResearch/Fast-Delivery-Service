@@ -1,5 +1,4 @@
-﻿using HeThongQLDVGiaoHangNhanh.sqlQuery;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 namespace HeThongQLDVGiaoHangNhanh
@@ -24,6 +23,7 @@ namespace HeThongQLDVGiaoHangNhanh
             dgvDonHang.Columns[8].HeaderText = "CCCD nhân viên giao hàng";
             dgvDonHang.Columns[9].HeaderText = "CCCD khách hàng gửi";
             dgvDonHang.Columns[10].HeaderText = "CCCD khách hàng nhận";
+            dgvDonHang.Columns[11].HeaderText = "Ngày mua hàng";
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -46,6 +46,11 @@ namespace HeThongQLDVGiaoHangNhanh
                 dgvDonHang.DataSource = DonHangDAL.Instance.DonHangHoanTra(Convert.ToInt32(cboThang.Text), (int)numNam.Value);
             else
                 dgvDonHang.DataSource = DonHangDAL.Instance.DonHangTonKho(Convert.ToInt32(cboThang.Text), (int)numNam.Value);
+            dgvDonHang.Columns[1].DefaultCellStyle.Format = "N0";
+            dgvDonHang.Columns[2].DefaultCellStyle.Format = "N0";
+            dgvDonHang.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
+            dgvDonHang.Columns[4].DefaultCellStyle.Format = "dd/MM/yyyy";
+            dgvDonHang.Columns[11].DefaultCellStyle.Format = "dd/MM/yyyy hh:mm:ss";
             HeaderTextDonHang();
         }
 

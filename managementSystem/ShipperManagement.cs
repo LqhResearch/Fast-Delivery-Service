@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using HeThongQLDVGiaoHangNhanh.sqlQuery;
-using SqlQuery;
 
 namespace HeThongQLDVGiaoHangNhanh
 {
@@ -16,6 +14,7 @@ namespace HeThongQLDVGiaoHangNhanh
         private void ShipperManagement_Load(object sender, EventArgs e)
         {
             dgvNVGiaoHang.DataSource = NV_GiaoHangDAL.Instance.GetListNVGiaoHang();
+            dgvNVGiaoHang.Columns[5].DefaultCellStyle.Format = "dd/MM/yyyy";
         }
         #endregion
         #region Xử lý DataGridView

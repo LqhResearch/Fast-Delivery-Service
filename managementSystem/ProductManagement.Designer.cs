@@ -1,5 +1,5 @@
 ﻿
-namespace HeThongQLDVGiaoHangNhanh.managementSystem
+namespace HeThongQLDVGiaoHangNhanh
 {
     partial class ProductManagement
     {

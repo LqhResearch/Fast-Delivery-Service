@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using HeThongQLDVGiaoHangNhanh.sqlQuery;
 using SqlQuery;
 
 namespace HeThongQLDVGiaoHangNhanh
@@ -29,8 +28,7 @@ namespace HeThongQLDVGiaoHangNhanh
                 DataGridViewRow row = dgvAccount.SelectedRows[0];
                 txtUsername.Text = row.Cells[0].Value.ToString();
                 txtDisplayName.Text = row.Cells[1].Value.ToString();
-                txtPassword.Text = row.Cells[2].Value.ToString();
-                cboAccess.Text = row.Cells[3].Value.ToString();
+                cboAccess.Text = row.Cells[2].Value.ToString();
             }
         }
 
@@ -42,7 +40,7 @@ namespace HeThongQLDVGiaoHangNhanh
         #region Thêm, cập nhật và xoá tài khoản
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (TaiKhoanDAL.Instance.AddTaiKhoan(txtUsername.Text, txtDisplayName.Text, txtPassword.Text, cboAccess.Text))
+            if (TaiKhoanDAL.Instance.AddTaiKhoan(txtUsername.Text, txtDisplayName.Text, cboAccess.Text))
                 MessageBox.Show("Thêm tài khoản mới thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             else
                 MessageBox.Show("Thêm tài khoản mới thất bại", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -51,7 +49,7 @@ namespace HeThongQLDVGiaoHangNhanh
 
         private void btnCapNhat_Click(object sender, EventArgs e)
         {
-            if (TaiKhoanDAL.Instance.UpdateTaiKhoan(txtUsername.Text, txtDisplayName.Text, txtPassword.Text, cboAccess.Text))
+            if (TaiKhoanDAL.Instance.UpdateTaiKhoan(txtUsername.Text, txtDisplayName.Text, cboAccess.Text))
                 MessageBox.Show("Cập nhật thông tin tài khoản thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             else
                 MessageBox.Show("Cập nhật thông tin tài khoản thất bại", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -76,7 +74,6 @@ namespace HeThongQLDVGiaoHangNhanh
         private void btnNewAdd_Click(object sender, EventArgs e)
         {
             txtUsername.Clear();
-            txtPassword.Clear();
             txtDisplayName.Clear();
             cboAccess.SelectedIndex = 0;
         }

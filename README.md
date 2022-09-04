@@ -1,6 +1,6 @@
-# Hệ thống quản lý dịch vụ giao hàng nhanh
+# Hệ thống quản lý dịch vụ giao hàng nhanh :articulated_lorry:
 
-## Mô tả đề tài
+## :pushpin: Mô tả đề tài
 Một công ty giao hàng nhanh cần quản lý các thông tin về đơn hàng và nhân viên giao hàng thuộc các chi nhánh của công ty, muốn xây dựng hệ thống quản lý giao hàng nhanh cho mỗi chi nhánh như sau:
 
 Mỗi chi nhánh dịch vụ giao hàng nhanh sẽ có một người quản lý (Nhân viên quản lý), người này sẽ được cấp một tài khoản có quyền quản trị (Admin) để đăng nhập vào hệ thống nhằm thực thi các công việc quản lý về các đơn hàng và nhân viên giao hàng.
@@ -20,30 +20,33 @@ Mỗi khách hàng (gửi và nhận) khi sử dụng dịch vụ giao hàng nha
 Mỗi đơn hàng khi được nhân viên quản lý nhận từ khách hàng gửi sẽ được nhân viên đó ghi nhận lại ngày gửi đơn hàng đó.
 Khi nhân viên giao hàng giao cho khách hàng nhận sẽ ghi nhận lại trạng thái đơn hàng là thành công hay hoàn trả, và ghi nhận thêm ngày nhận hàng, nguyên nhân bị hoàn trả (nếu có).
 
-## Các hình ảnh:
-Trang chủ
-<img src="answer\home.png" alt="Trang chủ" width="100%" />
+## :framed_picture: Danh sách hình ảnh
+- Đăng nhập
+![Đăng nhập](./answer/login.png)
 
-Quản lý đơn hàng
-<img src="answer\pic-1.png" alt="Quản lý đơn hàng" width="100%" />
+- Trang chủ
+![Trang chủ](./answer/home.png)
 
-Quản lý khách hàng
-<img src="answer\pic-2.png" alt="Quản lý khách hàng" width="100%" />
+- Quản lý đơn hàng
+![Quản lý đơn hàng](./answer/pic-1.png)
 
-Quản lý nhân viên giao hàng
-<img src="answer\pic-3.png" alt="Quản lý nhân viên giao hàng" width="100%" />
+- Quản lý khách hàng
+![Quản lý khách hàng](./answer/pic-2.png)
 
-Quản lý tài khoản
-<img src="answer\pic-4.png" alt="Quản lý tài khoản" width="100%" />
+- Quản lý nhân viên giao hàng
+![Quản lý nhân viên giao hàng](./answer/pic-3.png)
 
-Thống kế đơn hàng
-<img src="answer\pic-5.png" alt="Thống kế đơn hàng" width="100%" />
+- Quản lý tài khoản
+![Quản lý tài khoản](./answer/pic-4.png)
 
-Thống kế doanh thu trong tháng
-<img src="answer\pic-6.png" alt="Thống kế doanh thu trong tháng" width="100%" />
+- Thống kế đơn hàng
+![Thống kế đơn hàng](./answer/pic-5.png)
 
-Thống kế số lượng đơn hàng trong năm
-<img src="answer\pic-7.png" alt="Thống kế số lượng đơn hàng trong năm" width="100%" />
+- Thống kế doanh thu trong tháng
+![Thống kế doanh thu trong tháng](./answer/pic-6.png)
 
-Lương nhân viên
-<img src="answer\pic-8.png" alt="Lương nhân viên" width="100%" />
+- Thống kế số lượng đơn hàng trong năm
+![Thống kế số lượng đơn hàng trong năm](./answer/pic-7.png)
+
+- Hoá đơn
+![Hoá đơn](./answer/bill.png)

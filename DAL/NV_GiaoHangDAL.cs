@@ -2,7 +2,7 @@
 using System;
 using System.Data;
 
-namespace HeThongQLDVGiaoHangNhanh.sqlQuery
+namespace HeThongQLDVGiaoHangNhanh
 {
     class NV_GiaoHangDAL : ConnectionDB
     {

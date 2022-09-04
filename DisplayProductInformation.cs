@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace HeThongQLDVGiaoHangNhanh.sqlQuery
+namespace HeThongQLDVGiaoHangNhanh
 {
     public partial class DisplayProductInformation : Form
     {
@@ -18,6 +18,8 @@ namespace HeThongQLDVGiaoHangNhanh.sqlQuery
             lblTitle.Text = "Thông tin sản phẩm của đơn hàng";
             lblMaVanDon.Text = "Đơn hàng: " + MaVanDon;
             dgvThongTinSanPham.DataSource = ThongTinSanPhamDHDAL.Instance.GetListThongTinSanPhamByMaVanDon(MaVanDon);
+            dgvThongTinSanPham.Columns[2].DefaultCellStyle.Format = "N0";
+            dgvThongTinSanPham.Columns[4].DefaultCellStyle.Format = "N0";
         }
 
         private void dgvThongTinSanPham_DataSourceChanged(object sender, EventArgs e)

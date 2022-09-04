@@ -1,4 +1,4 @@
-﻿namespace HeThongQLDVGiaoHangNhanh.sqlQuery
+﻿namespace HeThongQLDVGiaoHangNhanh
 {
     class ConnectionDB
     {

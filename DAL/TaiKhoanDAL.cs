@@ -1,7 +1,7 @@
 ﻿using SqlQuery;
 using System.Data;
 
-namespace HeThongQLDVGiaoHangNhanh.sqlQuery
+namespace HeThongQLDVGiaoHangNhanh
 {
     class TaiKhoanDAL : ConnectionDB
     {
@@ -51,14 +51,14 @@ namespace HeThongQLDVGiaoHangNhanh.sqlQuery
         }
         #endregion
         #region Thêm, cập nhật và xoá thông tin tài khoản
-        public bool AddTaiKhoan(string user, string displayName, string pass, string access)
+        public bool AddTaiKhoan(string user, string displayName, string access)
         {
-            return DataProvider.Instance.ExecuteNonQuery("SP_AddTaiKhoan @tenDangNhap, @tenHienThi, @matKhau, @quyenTruyCap", new object[] { user, displayName, pass, access }) > 0;
+            return DataProvider.Instance.ExecuteNonQuery("SP_AddTaiKhoan @tenDangNhap, @tenHienThi, @quyenTruyCap", new object[] { user, displayName, access }) > 0;
         }
 
-        public bool UpdateTaiKhoan(string user, string displayName, string pass, string access)
+        public bool UpdateTaiKhoan(string user, string displayName, string access)
         {
-            return DataProvider.Instance.ExecuteNonQuery("SP_UpdateTaiKhoan @tenDangNhap, @tenHienThi, @matKhau, @quyenTruyCap", new object[] { user, displayName, pass, access }) > 0;
+            return DataProvider.Instance.ExecuteNonQuery("SP_UpdateTaiKhoan @tenDangNhap, @tenHienThi, @quyenTruyCap", new object[] { user, displayName, access }) > 0;
         }
 
         public bool DeleteTaiKhoan(string user)

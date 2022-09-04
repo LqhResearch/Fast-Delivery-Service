@@ -1,5 +1,5 @@
 ﻿
-namespace HeThongQLDVGiaoHangNhanh.personalInformation
+namespace HeThongQLDVGiaoHangNhanh
 {
     partial class ChangeDisplayName
     {

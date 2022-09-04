@@ -2,9 +2,6 @@
 using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
-using HeThongQLDVGiaoHangNhanh.printer;
-using HeThongQLDVGiaoHangNhanh.sqlQuery;
-using SqlQuery;
 
 namespace HeThongQLDVGiaoHangNhanh
 {
@@ -18,6 +15,11 @@ namespace HeThongQLDVGiaoHangNhanh
         private void ShowDonHang_Load(object sender, EventArgs e)
         {
             dgvDonHang.DataSource = DonHangDAL.Instance.GetListDonHang();
+            dgvDonHang.Columns[1].DefaultCellStyle.Format = "N0";
+            dgvDonHang.Columns[2].DefaultCellStyle.Format = "N0";
+            dgvDonHang.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
+            dgvDonHang.Columns[4].DefaultCellStyle.Format = "dd/MM/yyyy";
+            dgvDonHang.Columns[11].DefaultCellStyle.Format = "dd/MM/yyyy hh:mm:ss";
             ToolTip toolTip = new ToolTip();
             toolTip.SetToolTip(btnRefresh, "Tải lại danh sách đơn hàng");
             toolTip.SetToolTip(txtSearch, "Nhấn enter để tìm kiếm");

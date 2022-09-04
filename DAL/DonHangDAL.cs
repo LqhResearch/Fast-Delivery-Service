@@ -2,7 +2,7 @@
 using System;
 using System.Data;
 
-namespace HeThongQLDVGiaoHangNhanh.sqlQuery
+namespace HeThongQLDVGiaoHangNhanh
 {
     class DonHangDAL : ConnectionDB
     {
@@ -27,7 +27,7 @@ namespace HeThongQLDVGiaoHangNhanh.sqlQuery
         #region Lấy danh sách thông tin của đơn hàng
         public DataTable GetListDonHang()
         {
-            return DataProvider.Instance.ExecuteQuery("select * from View_DONHANG");
+            return DataProvider.Instance.ExecuteQuery("SELECT * FROM View_DONHANG ORDER BY CreatedAt DESC");
         }
 
         public DataTable GetDonHangByMaVanDon(string maVanDon)

@@ -1,8 +1,7 @@
-﻿using HeThongQLDVGiaoHangNhanh.sqlQuery;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
-namespace HeThongQLDVGiaoHangNhanh.personalInformation
+namespace HeThongQLDVGiaoHangNhanh
 {
     public partial class ChangePassword : Form
     {
@@ -28,7 +27,7 @@ namespace HeThongQLDVGiaoHangNhanh.personalInformation
                 MessageBox.Show("Mật khẩu mới không khớp", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            if (TaiKhoanDAL.Instance.ThayDoiMatKhau(txtUsername.Text, txtPassword.Text, txtNewPass.Text))
+            if (TaiKhoanDAL.Instance.ThayDoiMatKhau(txtUsername.Text, Encryption.MD5(txtPassword.Text), Encryption.MD5(txtNewPass.Text)))
                 MessageBox.Show("Thay đổi thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             else
                 MessageBox.Show("Mật khẩu không hợp lệ", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);

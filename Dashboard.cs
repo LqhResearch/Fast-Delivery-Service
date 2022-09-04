@@ -1,6 +1,4 @@
-﻿using HeThongQLDVGiaoHangNhanh.personalInformation;
-using HeThongQLDVGiaoHangNhanh.sqlQuery;
-using System;
+﻿using System;
 using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
@@ -115,6 +113,11 @@ namespace HeThongQLDVGiaoHangNhanh
             if (e.KeyCode == Keys.Enter)
             {
                 dgvDonHang.DataSource = DonHangDAL.Instance.GetDonHangByMaVanDon(txtSearch.Text);
+                dgvDonHang.Columns[1].DefaultCellStyle.Format = "N0";
+                dgvDonHang.Columns[2].DefaultCellStyle.Format = "N0";
+                dgvDonHang.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
+                dgvDonHang.Columns[4].DefaultCellStyle.Format = "dd/MM/yyyy";
+
                 if (dgvDonHang.Rows.Count == 0)
                     MessageBox.Show("Không tìm thấy đơn hàng có mã vận đơn là " + txtSearch.Text + " trong hệ thống", "Hệ thống quản lý dịch vụ giao hàng nhanh", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }

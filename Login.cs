@@ -1,5 +1,4 @@
-﻿using HeThongQLDVGiaoHangNhanh.sqlQuery;
-using System;
+﻿using System;
 using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
@@ -79,7 +78,7 @@ namespace HeThongQLDVGiaoHangNhanh
         #region Đăng nhập
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            DataTable dt = TaiKhoanDAL.Instance.ThongTinTaiKhoan(txtUsername.Text, txtPassword.Text);
+            DataTable dt = TaiKhoanDAL.Instance.ThongTinTaiKhoan(txtUsername.Text, Encryption.MD5(txtPassword.Text));
             if (dt.Rows.Count > 0)
             {
                 MessageBox.Show("Đăng nhập thành công", "Đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Information);

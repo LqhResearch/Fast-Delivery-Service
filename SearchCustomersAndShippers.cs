@@ -1,5 +1,4 @@
-﻿using HeThongQLDVGiaoHangNhanh.sqlQuery;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 namespace HeThongQLDVGiaoHangNhanh
@@ -13,25 +12,21 @@ namespace HeThongQLDVGiaoHangNhanh
         #region Danh sách các header
         private void HeaderTextKhachHang()
         {
-            dgvTimKiem.Columns[0].HeaderText = "Căn cước công dân";
+            dgvTimKiem.Columns[0].HeaderText = "Số điện thoại";
             dgvTimKiem.Columns[1].HeaderText = "Họ tên";
-            dgvTimKiem.Columns[2].HeaderText = "Số điện thoại";
-            dgvTimKiem.Columns[3].HeaderText = "Địa chỉ";
+            dgvTimKiem.Columns[2].HeaderText = "Địa chỉ";
         }
 
-        private void HeaderTextDonHang()
+        private void HeaderTextNhanVien()
         {
-            dgvTimKiem.Columns[0].HeaderText = "Mã vận đơn";
-            dgvTimKiem.Columns[1].HeaderText = "Tổng đơn hàng";
-            dgvTimKiem.Columns[2].HeaderText = "Phí vận chuyển";
-            dgvTimKiem.Columns[3].HeaderText = "Ngày nhập kho";
-            dgvTimKiem.Columns[4].HeaderText = "Ngày giao hàng";
-            dgvTimKiem.Columns[5].HeaderText = "Giao thành công";
-            dgvTimKiem.Columns[6].HeaderText = "Bị hoàn trả";
-            dgvTimKiem.Columns[7].HeaderText = "Nguyên nhân bị hoàn trả";
-            dgvTimKiem.Columns[8].HeaderText = "CCCD nhân viên giao hàng";
-            dgvTimKiem.Columns[9].HeaderText = "CCCD khách hàng gửi";
-            dgvTimKiem.Columns[10].HeaderText = "CCCD khách hàng nhận";
+            dgvTimKiem.Columns[0].HeaderText = "CCCD nhân viên giao hàng";
+            dgvTimKiem.Columns[1].HeaderText = "Họ tên";
+            dgvTimKiem.Columns[2].HeaderText = "Giới tính";
+            dgvTimKiem.Columns[3].HeaderText = "Số điện thoại";
+            dgvTimKiem.Columns[4].HeaderText = "Địa chỉ";
+            dgvTimKiem.Columns[5].HeaderText = "Ngày sinh";
+            dgvTimKiem.Columns[6].HeaderText = "Lương";
+            dgvTimKiem.Columns[7].HeaderText = "Ghi chú";
         }
         #endregion
         #region Tải dữ liệu mặc định
@@ -54,15 +49,22 @@ namespace HeThongQLDVGiaoHangNhanh
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             if (cboLoaiTimKiem.Text == "Khách hàng gửi")
-                    dgvTimKiem.DataSource = KhachHangGuiDAL.Instance.GetKhachHangGuiBySDT(txtSearch.Text);
+            {
+                dgvTimKiem.DataSource = KhachHangGuiDAL.Instance.GetKhachHangGuiBySDT(txtSearch.Text);
+                HeaderTextKhachHang();
+            }
             else if (cboLoaiTimKiem.Text == "Khách hàng nhận")
-                    dgvTimKiem.DataSource = KhachHangNhanDAL.Instance.GetKhachHangNhanBySDT(txtSearch.Text);
+            {
+                dgvTimKiem.DataSource = KhachHangNhanDAL.Instance.GetKhachHangNhanBySDT(txtSearch.Text);
+                HeaderTextKhachHang();
+            }
             else
             {
                 if (cboThuocTinh.Text == "Căn cước công dân")
                     dgvTimKiem.DataSource = NV_GiaoHangDAL.Instance.GetNVGiaoHangByCCCD_NV(txtSearch.Text);
                 else
                     dgvTimKiem.DataSource = NV_GiaoHangDAL.Instance.GetNVGiaoHangBySDT(txtSearch.Text);
+                HeaderTextNhanVien();
             }
             if (dgvTimKiem.RowCount == 0)
                 MessageBox.Show("Không tìm thấy kết quả nào phù hợp", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

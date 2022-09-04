@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HeThongQLDVGiaoHangNhanh.printer {
+namespace HeThongQLDVGiaoHangNhanh {
     using System;
     using System.ComponentModel;
     using CrystalDecisions.Shared;

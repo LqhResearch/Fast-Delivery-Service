@@ -1,5 +1,5 @@
 ﻿
-namespace HeThongQLDVGiaoHangNhanh.sqlQuery
+namespace HeThongQLDVGiaoHangNhanh
 {
     partial class DisplayProductInformation
     {

@@ -1,7 +1,7 @@
 ﻿using SqlQuery;
 using System.Data;
 
-namespace HeThongQLDVGiaoHangNhanh.sqlQuery
+namespace HeThongQLDVGiaoHangNhanh
 {
     class ThongTinSanPhamDHDAL : ConnectionDB
     {

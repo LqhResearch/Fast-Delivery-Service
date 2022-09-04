@@ -41,8 +41,6 @@ namespace HeThongQLDVGiaoHangNhanh
             this.lblUsername = new System.Windows.Forms.Label();
             this.txtDisplayName = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblDisplayName = new System.Windows.Forms.Label();
-            this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lblPassword = new System.Windows.Forms.Label();
             this.lblAccess = new System.Windows.Forms.Label();
             this.cboAccess = new Guna.UI2.WinForms.Guna2ComboBox();
             this.DragControl = new Guna.UI2.WinForms.Guna2DragControl(this.components);
@@ -171,7 +169,7 @@ namespace HeThongQLDVGiaoHangNhanh
             this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.Location = new System.Drawing.Point(480, 70);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(104, 16);
+            this.lblUsername.Size = new System.Drawing.Size(105, 16);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "Tên đăng nhập: ";
             // 
@@ -206,52 +204,17 @@ namespace HeThongQLDVGiaoHangNhanh
             this.lblDisplayName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDisplayName.Location = new System.Drawing.Point(480, 112);
             this.lblDisplayName.Name = "lblDisplayName";
-            this.lblDisplayName.Size = new System.Drawing.Size(81, 16);
+            this.lblDisplayName.Size = new System.Drawing.Size(82, 16);
             this.lblDisplayName.TabIndex = 2;
             this.lblDisplayName.Text = "Tên hiển thị: ";
-            // 
-            // txtPassword
-            // 
-            this.txtPassword.BorderRadius = 3;
-            this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPassword.DefaultText = "";
-            this.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPassword.DisabledState.Parent = this.txtPassword;
-            this.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPassword.FocusedState.Parent = this.txtPassword;
-            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPassword.HoverState.Parent = this.txtPassword;
-            this.txtPassword.Location = new System.Drawing.Point(588, 142);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '\0';
-            this.txtPassword.PlaceholderText = "";
-            this.txtPassword.SelectedText = "";
-            this.txtPassword.ShadowDecoration.Parent = this.txtPassword;
-            this.txtPassword.Size = new System.Drawing.Size(200, 36);
-            this.txtPassword.TabIndex = 3;
-            // 
-            // lblPassword
-            // 
-            this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(480, 154);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(67, 16);
-            this.lblPassword.TabIndex = 3;
-            this.lblPassword.Text = "Mật khẩu: ";
             // 
             // lblAccess
             // 
             this.lblAccess.AutoSize = true;
             this.lblAccess.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAccess.Location = new System.Drawing.Point(480, 196);
+            this.lblAccess.Location = new System.Drawing.Point(480, 155);
             this.lblAccess.Name = "lblAccess";
-            this.lblAccess.Size = new System.Drawing.Size(102, 16);
+            this.lblAccess.Size = new System.Drawing.Size(103, 16);
             this.lblAccess.TabIndex = 4;
             this.lblAccess.Text = "Quyền truy cập: ";
             // 
@@ -272,7 +235,7 @@ namespace HeThongQLDVGiaoHangNhanh
             "Quản trị viên",
             "Nhân viên"});
             this.cboAccess.ItemsAppearance.Parent = this.cboAccess;
-            this.cboAccess.Location = new System.Drawing.Point(588, 184);
+            this.cboAccess.Location = new System.Drawing.Point(588, 143);
             this.cboAccess.Name = "cboAccess";
             this.cboAccess.ShadowDecoration.Parent = this.cboAccess;
             this.cboAccess.Size = new System.Drawing.Size(200, 36);
@@ -402,10 +365,8 @@ namespace HeThongQLDVGiaoHangNhanh
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.cboAccess);
             this.Controls.Add(this.lblAccess);
-            this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblDisplayName);
             this.Controls.Add(this.lblUsername);
-            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtDisplayName);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.pnlTitle);
@@ -432,8 +393,6 @@ namespace HeThongQLDVGiaoHangNhanh
         private System.Windows.Forms.Label lblUsername;
         private Guna.UI2.WinForms.Guna2TextBox txtDisplayName;
         private System.Windows.Forms.Label lblDisplayName;
-        private Guna.UI2.WinForms.Guna2TextBox txtPassword;
-        private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblAccess;
         private Guna.UI2.WinForms.Guna2ComboBox cboAccess;
         private Guna.UI2.WinForms.Guna2Button btnXoa;

@@ -1,8 +1,7 @@
-﻿using HeThongQLDVGiaoHangNhanh.sqlQuery;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
-namespace HeThongQLDVGiaoHangNhanh.managementSystem
+namespace HeThongQLDVGiaoHangNhanh
 {
     public partial class ProductManagement : Form
     {
@@ -18,6 +17,8 @@ namespace HeThongQLDVGiaoHangNhanh.managementSystem
         {
             lblMaVanDon.Text = "Đơn hàng: " + MaVanDon;
             dgvThongTinSanPhamDH.DataSource = ThongTinSanPhamDHDAL.Instance.GetListThongTinSanPhamByMaVanDon(MaVanDon);
+            dgvThongTinSanPhamDH.Columns[2].DefaultCellStyle.Format = "N0";
+            dgvThongTinSanPhamDH.Columns[4].DefaultCellStyle.Format = "N0";
             ToolTip toolTip = new ToolTip();
             toolTip.SetToolTip(txtThanhTien, "Tính tự động không cần nhập vào");
         }

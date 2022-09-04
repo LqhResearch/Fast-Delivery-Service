@@ -1,8 +1,4 @@
-﻿using HeThongQLDVGiaoHangNhanh.managementSystem;
-using HeThongQLDVGiaoHangNhanh.sqlQuery;
-using SqlQuery;
-using System;
-using System.Data;
+﻿using System;
 using System.Windows.Forms;
 
 namespace HeThongQLDVGiaoHangNhanh
@@ -35,6 +31,11 @@ namespace HeThongQLDVGiaoHangNhanh
         private void OrderManagement_Load(object sender, EventArgs e)
         {
             dgvDonHang.DataSource = DonHangDAL.Instance.GetListDonHang();
+            dgvDonHang.Columns[1].DefaultCellStyle.Format = "N0";
+            dgvDonHang.Columns[2].DefaultCellStyle.Format = "N0";
+            dgvDonHang.Columns[3].DefaultCellStyle.Format = "dd/MM/yyyy";
+            dgvDonHang.Columns[4].DefaultCellStyle.Format = "dd/MM/yyyy";
+            dgvDonHang.Columns[11].DefaultCellStyle.Format = "dd/MM/yyyy hh:mm:ss";
             LoadComboxKHG_KHN_NV();
             SetAllToolTip();
         }
